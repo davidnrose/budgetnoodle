@@ -43,15 +43,15 @@ def budget_app():
         income1_amount = st.number_input(
             "Income 1 (after tax)",
             min_value=0,
-            value=3700,
+            value=2500,
             step=100,
             key="inc1"
         )
     with col_inc2:
         income2_amount = st.number_input(
-            "Side Income / Other",
+            "Income 2 (After Tax)",
             min_value=0,
-            value=2800,
+            value=2500,
             step=100,
             key="inc2"
         )
